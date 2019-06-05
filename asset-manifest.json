@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/artod-site/static/css/main.bb8855be.chunk.css",
-    "main.js": "/artod-site/static/js/main.ad0c3ff7.chunk.js",
-    "main.js.map": "/artod-site/static/js/main.ad0c3ff7.chunk.js.map",
+    "main.css": "/artod-site/static/css/main.de58e143.chunk.css",
+    "main.js": "/artod-site/static/js/main.eda943fc.chunk.js",
+    "main.js.map": "/artod-site/static/js/main.eda943fc.chunk.js.map",
     "runtime~main.js": "/artod-site/static/js/runtime~main.28f396f7.js",
     "runtime~main.js.map": "/artod-site/static/js/runtime~main.28f396f7.js.map",
-    "static/js/2.d6a534e5.chunk.js": "/artod-site/static/js/2.d6a534e5.chunk.js",
-    "static/js/2.d6a534e5.chunk.js.map": "/artod-site/static/js/2.d6a534e5.chunk.js.map",
+    "static/js/2.ce785e65.chunk.js": "/artod-site/static/js/2.ce785e65.chunk.js",
+    "static/js/2.ce785e65.chunk.js.map": "/artod-site/static/js/2.ce785e65.chunk.js.map",
     "index.html": "/artod-site/index.html",
-    "precache-manifest.325c87ae318aa3d542a71c58a7fa344d.js": "/artod-site/precache-manifest.325c87ae318aa3d542a71c58a7fa344d.js",
+    "precache-manifest.4b7130b76b9d12bbbb813e87761a2f14.js": "/artod-site/precache-manifest.4b7130b76b9d12bbbb813e87761a2f14.js",
     "service-worker.js": "/artod-site/service-worker.js",
-    "static/css/main.bb8855be.chunk.css.map": "/artod-site/static/css/main.bb8855be.chunk.css.map",
+    "static/css/main.de58e143.chunk.css.map": "/artod-site/static/css/main.de58e143.chunk.css.map",
+    "static/media/LOGO.png": "/artod-site/static/media/LOGO.1f87a04d.png",
     "static/media/blur.3f2bc4f8.svg": "/artod-site/static/media/blur.3f2bc4f8.svg",
-    "static/media/Products.css": "/artod-site/static/media/fondoProducts.4397fd82.png"
+    "static/media/Products.css": "/artod-site/static/media/fondoProducts.4397fd82.png",
+    "static/media/Banner.css": "/artod-site/static/media/tobaco.00afeae0.jpg"
   }
 }

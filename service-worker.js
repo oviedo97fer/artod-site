@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/artod-site/precache-manifest.325c87ae318aa3d542a71c58a7fa344d.js"
+  "/artod-site/precache-manifest.4b7130b76b9d12bbbb813e87761a2f14.js"
 );
 
 self.addEventListener('message', (event) => {
