@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/artod-site/static/css/main.b6257e75.chunk.css",
-    "main.js": "/artod-site/static/js/main.95947d87.chunk.js",
-    "main.js.map": "/artod-site/static/js/main.95947d87.chunk.js.map",
+    "main.css": "/artod-site/static/css/main.bb8855be.chunk.css",
+    "main.js": "/artod-site/static/js/main.ad0c3ff7.chunk.js",
+    "main.js.map": "/artod-site/static/js/main.ad0c3ff7.chunk.js.map",
     "runtime~main.js": "/artod-site/static/js/runtime~main.28f396f7.js",
     "runtime~main.js.map": "/artod-site/static/js/runtime~main.28f396f7.js.map",
     "static/js/2.d6a534e5.chunk.js": "/artod-site/static/js/2.d6a534e5.chunk.js",
     "static/js/2.d6a534e5.chunk.js.map": "/artod-site/static/js/2.d6a534e5.chunk.js.map",
     "index.html": "/artod-site/index.html",
-    "precache-manifest.9a3033a3b78207825ee0b4822adcc61e.js": "/artod-site/precache-manifest.9a3033a3b78207825ee0b4822adcc61e.js",
+    "precache-manifest.325c87ae318aa3d542a71c58a7fa344d.js": "/artod-site/precache-manifest.325c87ae318aa3d542a71c58a7fa344d.js",
     "service-worker.js": "/artod-site/service-worker.js",
-    "static/css/main.b6257e75.chunk.css.map": "/artod-site/static/css/main.b6257e75.chunk.css.map",
+    "static/css/main.bb8855be.chunk.css.map": "/artod-site/static/css/main.bb8855be.chunk.css.map",
+    "static/media/blur.3f2bc4f8.svg": "/artod-site/static/media/blur.3f2bc4f8.svg",
     "static/media/Products.css": "/artod-site/static/media/fondoProducts.4397fd82.png"
   }
 }
