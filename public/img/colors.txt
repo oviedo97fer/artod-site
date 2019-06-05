@@ -1,4 +1,0 @@
-rgb(76,16,88) -- violeta
-rgb(13,29,65) -- azul
-rgb(47,152,33) -- verde
-rgb(228,249,32) -- amarillo

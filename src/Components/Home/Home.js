@@ -10,6 +10,9 @@ class Home extends Component{
             <div className='Home' id='Home'>
                 <img alt='Logo' className='logo' src='img/logo.png'/>
                 <h1>artod.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ciusmod</p>
+                <img alt='hoja de tabaco' src='img/seed.png' className='seed'/>
+                <img alt='hoja de tabaco' src='img/seed1.png' className='seed1'/>
                 <Button/>
                 <Nav/>
             </div>
