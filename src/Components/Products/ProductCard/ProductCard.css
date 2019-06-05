@@ -23,3 +23,15 @@
     text-align: center;
     width: 100%;
 }
+@media only screen and (max-width:700px){
+    .ProductCard{
+        position: relative;
+        top:0;
+        width: 80vw;
+        height: 60vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        font-size: 5vw;
+    }
+
+}

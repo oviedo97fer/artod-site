@@ -1,5 +1,5 @@
 .Home{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background: rgb(120,32,150);
     background: linear-gradient(68deg, rgba(120,32,150,1) 31%, rgba(109,33,147,1) 44%, rgba(95,35,143,1) 52%, rgba(84,37,139,1) 61%, rgba(13,46,117,1) 88%);
@@ -17,7 +17,7 @@
     position: absolute;
     width: 20%;
     left:40%;
-    top: 60%;
+    top: 55%;
 }
 .Home p, .seed, .seed1{
     display: none;
@@ -27,8 +27,9 @@
     width: 20%;
     border-radius: 10px;
     color: #fff;
-    position: relative;
+    position: absolute;
     left:40%;
+    bottom: 10%;
     cursor: pointer;
 }
 .Button:hover{
@@ -43,7 +44,7 @@
     padding: 1vw
 }
 /* mobile */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
     .Home{
         background: #fff;
         position: relative;
@@ -52,7 +53,6 @@
         position: relative;
         width:50%;
         top:40vw;
-        
     }
     .Home h1{
         color: #111;
@@ -83,14 +83,15 @@
     }
     .seed{
         width: 40vw;
-        top: 25%;
+        top: 15%;
         transform: rotate(90deg);
         left: -15%;
     }
     .seed1{
-        width: 70vw;
-        top: 35%;
-        right: -30%;
+        position: absolute;
+        width: 40vw;
+        top: 35%;  
+        right: 0; 
     }
     .Button{
         border: 1px solid #782096;

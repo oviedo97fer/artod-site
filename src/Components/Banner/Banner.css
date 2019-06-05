@@ -29,3 +29,43 @@
  font-weight: 300;
  font-size: 1.5vw;
 }
+.blur-banner{
+    display:none;
+}
+@media only screen and (max-width:700px){
+    .blur-banner{
+        display: block;
+        width:100vw;
+        height: 100vh;
+        background-image: url('./tobaco.jpg');
+        background-repeat: no-repeat;
+        background-size: 170%;
+        filter: blur(4px);
+        background-attachment: fixed;
+
+    }
+    .tobaco{
+        display:none;
+    }
+    .hoja-tobaco{
+        width: 15vw;
+        z-index: 100;
+    }
+    .Banner-desc{
+        z-index: 100;
+        width: 60vw;
+        position: absolute;
+        left:20vw;
+        top: 35%;
+        color: #fff;
+    }
+    .Banner-desc h1{
+        font-size: 10vw;
+        
+    }
+    .Banner-desc h3{
+     font-family: 'Playfair Display';
+     font-weight: 300;
+     font-size: 5vw;
+    }
+}

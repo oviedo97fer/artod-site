@@ -1,18 +1,54 @@
 .Menu{
-    z-index: 1000;
+    display:none;
 }
-.menu-btn{
-    width: 10vw;
-    position: fixed;
-    top:5%;
-    left:7%;
+
+@media only screen and (max-width:700px){
+    .Menu{
+        z-index: 1000;
+        display: block;
+        position: fixed;
+    }
+    .menu-btn{
+        width: 10vw;
+        position: fixed;
+        top:5%;
+        left:7%;
+        cursor: pointer;
+        z-index: 5000;
+    }
+    .Menu-bar{
+        position: fixed;
+        height: 100vh;
+        z-index: 1000;
+        margin-left: -100%;
+        opacity: 0;
+        width: 75vw;
+        height: 100vh;
+        background: rgb(120,32,150);
+        background: linear-gradient(68deg, rgba(120,32,150,1) 31%, rgba(109,33,147,1) 44%, rgba(95,35,143,1) 52%, rgba(84,37,139,1) 61%, rgba(13,46,117,1) 88%);
+        transition: all .4s ease-in-out;
+    }
+    .Menu-bar-open{
+        margin-left: 0px;
+        opacity: 1;
+    }
+    .Menu-bar h2{
+        font-size: 9vw;
+        letter-spacing: 8px;
+        color: #fff;
+        position: absolute;
+        left:10%;
+        margin:0;
+        top: 5%;
+    }
+    .Menu-bar h1{
+        font-weight: bold;
+        font-size: 10vw;
+        letter-spacing: 8px;
+        color: #fff;
+        position: absolute;
+        left:5%;
+        top: 15%;
+    }
     
-}
-.Menu-bar{
-    display: none;
-    width: 70vw;
-    height: 100vh;
-    position: fixed;
-    background: rgb(120,32,150);
-    background: linear-gradient(68deg, rgba(120,32,150,1) 31%, rgba(109,33,147,1) 44%, rgba(95,35,143,1) 52%, rgba(84,37,139,1) 61%, rgba(13,46,117,1) 88%);
 }

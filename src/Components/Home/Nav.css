@@ -1,3 +1,4 @@
+@media only screen and (min-width: 700px){
 .Nav{
     position: absolute;
     list-style: none; 
@@ -21,9 +22,29 @@
     color: #fff;
     text-decoration: none;
 }
-
-@media only screen and (max-width: 600px){
+}
+@media only screen and (max-width: 700px){
     .Nav{
-        display: none;
+        position: relative;
+        list-style: none; 
+        margin:0;
+        left:0;
+        top: 70%;
+        text-align: left;
+    }
+    .Nav li{
+        margin: 3.5vw;
+        margin-left: 1vw;
+        font-family: 'Lato';
+        font-size: 5vw;
+        cursor: pointer;
+        transition: font-size 0.3s ease-in;
+    }
+    .Nav li:hover{
+        font-size: 1.5vw;
+    }
+    .Nav li a{
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
     }
 }
